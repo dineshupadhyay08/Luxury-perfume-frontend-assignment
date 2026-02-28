@@ -1,0 +1,252 @@
+.product-detail-page {
+  padding-top: 120px;
+  padding-bottom: var(--space-4xl);
+  background-color: var(--color-white);
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  margin-bottom: var(--space-2xl);
+  letter-spacing: 0.02em;
+}
+
+.breadcrumb a {
+  color: var(--color-muted);
+  transition: var(--transition-subtle);
+}
+
+.breadcrumb a:hover {
+  color: var(--color-primary);
+}
+
+.breadcrumb .current {
+  color: var(--color-primary);
+  font-weight: var(--font-medium);
+}
+
+.breadcrumb span:not(.current) {
+  opacity: 0.5;
+}
+
+/* Product Detail Layout */
+.product-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4xl);
+  align-items: start;
+}
+
+.product-detail-image {
+  position: sticky;
+  top: 120px;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background-color: var(--color-cream);
+}
+
+.product-detail-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--color-border-light);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.product-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-detail-info {
+  padding: var(--space-lg) 0;
+}
+
+.product-detail-category {
+  font-size: 0.65rem;
+  font-weight: var(--font-medium);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  display: block;
+  margin-bottom: var(--space-md);
+}
+
+.product-detail-name {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: var(--font-regular);
+  margin-bottom: var(--space-lg);
+}
+
+.product-detail-price {
+  font-family: var(--font-heading);
+  font-size: 1.55rem;
+  font-weight: var(--font-medium);
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-xl);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.product-detail-description {
+  margin-bottom: var(--space-xl);
+}
+
+.product-detail-description p {
+  font-size: 0.95rem;
+  line-height: 1.9;
+  color: var(--color-muted);
+}
+
+/* Fragrance Specs */
+.product-specs {
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-xl);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.product-specs h3 {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: var(--font-medium);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-lg);
+  color: var(--color-primary);
+}
+
+.specs-grid {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.spec-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  padding: var(--space-md);
+  background-color: var(--color-cream);
+  border-left: 2px solid var(--color-gold);
+}
+
+.spec-label {
+  font-size: 0.62rem;
+  font-weight: var(--font-medium);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+}
+
+.spec-value {
+  font-size: 0.88rem;
+  color: var(--color-primary);
+  line-height: 1.5;
+}
+
+/* Product Meta */
+.product-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  padding: var(--space-md);
+  background-color: var(--color-cream);
+}
+
+.meta-label {
+  font-size: 0.62rem;
+  font-weight: var(--font-medium);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.meta-value {
+  font-size: 0.88rem;
+  color: var(--color-primary);
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+  width: 100%;
+  padding: var(--space-lg);
+  font-size: 0.72rem;
+}
+
+/* Error Container */
+.error-container {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-content {
+  text-align: center;
+  max-width: 480px;
+  padding: var(--space-xl);
+}
+
+.error-content h1 {
+  font-family: var(--font-heading);
+  font-size: 5rem;
+  font-weight: var(--font-light);
+  color: var(--color-gold);
+  line-height: 1;
+  margin-bottom: var(--space-md);
+}
+
+.error-content h2 {
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  margin-bottom: var(--space-md);
+}
+
+.error-content p {
+  color: var(--color-muted);
+  margin-bottom: var(--space-xl);
+  line-height: 1.8;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .product-detail {
+    gap: var(--space-2xl);
+  }
+
+  .product-detail-image {
+    position: static;
+  }
+
+  .product-detail-page {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-detail {
+    grid-template-columns: 1fr;
+  }
+
+  .product-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .breadcrumb {
+    font-size: 0.7rem;
+  }
+}
