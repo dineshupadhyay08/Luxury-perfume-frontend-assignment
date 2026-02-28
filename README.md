@@ -17,7 +17,7 @@ Lumière is a single-page application showcasing high-end fragrances with an ele
 ## Live Demo
 
 Live Website:
-https://luxury-perfume-frontend-assignment-qow9gayh6.vercel.app/
+https://luxury-perfume-frontend-assignment.vercel.app/
 
 GitHub Repository:
 https://github.com/dineshupadhyay08/Luxury-perfume-frontend-assignment
