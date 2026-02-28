@@ -280,6 +280,14 @@ npm run preview
 
 ---
 
+## Development Note
+
+- This project was primarily designed and implemented manually.  
+- AI tools were used occasionally for minor assistance such as code refinement, 		                   formatting suggestions, and debugging guidance. 
+- All architectural decisions, implementation logic, and final code structure were reviewed and implemented independently.
+
+---
+
   
 
 Built as a frontend technical assignment demonstrating premium UI execution, scalable component architecture, and production-ready frontend practices.
