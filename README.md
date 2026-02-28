@@ -13,6 +13,15 @@
 
 Lumière is a single-page application showcasing high-end fragrances with an elegant, minimalist aesthetic inspired by luxury houses like Dior and Tom Ford. The application features a landing page with hero section, a product listing with responsive grid, and detailed product pages with fragrance specifications.
 
+
+## Live Demo
+
+Live Website:
+https://luxury-perfume-frontend-assignment-qow9gayh6.vercel.app/
+
+GitHub Repository:
+https://github.com/dineshupadhyay08/Luxury-perfume-frontend-assignment
+
   
 
 ## Brand Concept
