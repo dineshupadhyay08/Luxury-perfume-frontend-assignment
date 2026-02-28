@@ -1,4 +1,4 @@
-# Lumière — Luxury Perfume Showcase
+# Lumière — Luxury Perfume Showcase.
 
 A premium frontend showcase website for a luxury perfume brand, built with React and Vite.
 
