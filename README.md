@@ -1,7 +1,7 @@
 
-# Lumière — Luxury Perfume Showcaserr
+# Lumière — Luxury Perfume Showcase
 
-  
+
 
 > Frontend technical assignment submission focused on luxury UI execution, component architecture, and responsive design.
 
