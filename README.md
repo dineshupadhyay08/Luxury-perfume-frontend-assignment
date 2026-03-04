@@ -1,5 +1,5 @@
 
-# Lumière — Luxury Perfume Showcasehh
+# Lumière — Luxury Perfume Showcase
 
 
 
